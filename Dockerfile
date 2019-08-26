@@ -39,6 +39,7 @@ RUN set -ex \
     && apt-get install -yqq --no-install-recommends \
         $buildDeps \
         libsasl2-dev \
+        libsasl2-modules \
         freetds-bin \
         build-essential \
         default-libmysqlclient-dev \
